@@ -8,7 +8,7 @@ import json
 #     ]
 # }
 #
-# json_string = json.dumps(customer)
+# json_string = json.dumps(customer, ensure_ascii=False)
 # print((json_string))
 
 # jsonString = '''{"name" : "KH", "id" : 123456, "history" : [
